@@ -1,0 +1,11 @@
+vpc="teravpc"
+region="us-east-2"
+iam_instance_profile="AdminRole"
+elbsubnets=["terapub1","terapub2"]
+ec2subnets=["terapriv1","terapriv2"]
+serverName="AppTera"
+operatingSystem="Red Hat Enterprise Linux (RHEL7.4)"
+vmSize="t2.micro"
+disks=[{ Drive: "/dev/xvdf" , DirPath: "/data" , DiskSize: 100},{ Drive: "/dev/xvdg" , DirPath: "/swap" , DiskSize: 30}]
+osDiskStorageType="General Purpose SSD (gp2)"
+publicKey="ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCvlFVLx9YtBTwbPfO6Np613VF7B0881R02VPVWXm2HM0lXxRTikVYq/BD9b3lauvdsS9seEJXaNKyCCFuHK7PTMExztvnYCSOBHGAVa+hK+3Nn2vdhrINCDIgwSSwek40GtZDVr1bvd6MhM2EBCEd6b5bB2hYPRfK/2JIcRilwmLi4RuXqZK7FnQTnB9SVLBgy+qFCWfgEOlZg24+hmV0GM2Dp2X2ui4C3AgmJeYkuj/Zi3szNei1f26SOfoAsSwJJzeUG/FZp+9r59gST6fs3ayngVrczrN1BhWBfRimXT81fVCLn31J0gUAyvwMLJ7WjpOx5JdRejvltXfolbJrZ"
